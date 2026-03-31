@@ -40,7 +40,8 @@ def main():
             batch_size=args.batch_size,
             fold=fold,
             num_folds=args.num_folds,
-            seed=args.seed
+            seed=args.seed,
+            num_patients=3662
         )
         
         # 2. Init Model
